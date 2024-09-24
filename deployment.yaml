@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: web-site
-        image: anjanar17/my-hugo-website:latest
+        image: dumalbhaskar/hugoapp:v1.0
         securityContext:
           runAsNonRoot: true
         ports:
