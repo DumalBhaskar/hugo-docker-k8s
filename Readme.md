@@ -1,4 +1,4 @@
-# K8S Practice exercise 3 
+# Deploy Hugo app on kubernetes
 
 Note: you can use the help of  [Killercoda playgrounds](https://killercoda.com/playgrounds) for performing the below labs
 
@@ -9,8 +9,6 @@ In this exercise you will learn
 - And finally to deploy to Kubernetes
 
 In this repo, we have a Hugo-based website along with a Dockerfile, which will be used to build a container image for this application.
-
-You can create a Kubernetes cluster - [[ Refer ]](https://gitlab.cloudifyops.com/clops-training/free-kubernetes-platform.git)
 
 ## Step 1 - Analyse the dockerfile and build docker image
 
@@ -24,7 +22,6 @@ You can create a Kubernetes cluster - [[ Refer ]](https://gitlab.cloudifyops.com
  - Create a public repo on docker hub or AWS ECR
  - Push this image you created to the above public docker registry
  
-
  ## Step3 - Deploy to kubernetes
 
  - Examine the yaml files in the reop and make the required changes based on the docker repository.
